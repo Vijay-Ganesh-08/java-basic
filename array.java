@@ -32,7 +32,7 @@ public class array {
         score[4] = scan.nextInt();
 
         int total = score[0]+score[1]+score[2]+score[3]+score[4];
-        System.out.println(total);
+        System.out.println("Total:" + total);
         scan.close();
 
     }
