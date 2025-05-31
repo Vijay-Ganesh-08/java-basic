@@ -10,7 +10,6 @@ public class Hotel {
     }
 
     public static void main(String[] agrs){
-
         Hotel hotel = new Hotel();
         int teaCost = hotel.getTeaCost();
         int coffeeCost = hotel.getCoffeeCost();
