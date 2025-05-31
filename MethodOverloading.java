@@ -37,11 +37,5 @@ public class MethodOverloading {
         } else {
             System.out.println("Invalid Input, Kindly enter 2/3");
         }
-
-
-
-
-
-
     }
 }
