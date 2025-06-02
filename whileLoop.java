@@ -1,4 +1,11 @@
 import java.util.Random;
+
+/**
+ * Java while loop is a control flow statement used to execute the block of statements repeatedly
+ * until the given condition evaluates to false. Once the condition becomes false,
+ * the line immediately after the loop in the program is executed.
+ */
+
 public class whileLoop {
     public static void main(String[] args){
 

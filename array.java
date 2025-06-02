@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Arrays in Java are one of the most fundamental data structures that allow us to store multiple
+ * values of the same type in a single variable.
+ * They are useful for storing and managing collections of data.
+ */
 public class array {
 
     public static void main(String[] args) {

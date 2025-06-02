@@ -1,5 +1,10 @@
 public class functions {
 
+    /**
+     * Functions in JavaScript are reusable blocks of code designed to perform specific tasks.
+     * They allow you to organize, reuse, and modularize code.
+     * It can take inputs, perform actions, and return outputs.
+     */
     int add(int a,int b){
         return a+b;
     }

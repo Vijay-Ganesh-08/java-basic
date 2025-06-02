@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * In Java, Method Overloading allows us to define multiple methods with the same name but different parameters within a class.
+ * This difference may include: * The number of parameters, * The types of parameters, * The order of parameters
+ */
 public class MethodOverloading {
 
     int sum (int a, int b){

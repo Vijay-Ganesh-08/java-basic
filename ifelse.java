@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Programs can choose which part of the code to execute based on some condition.
+ * This ability is called decision making and the statements used for it are called conditional statements.
+ * These statements evaluate one or more conditions and make the decision whether to execute a block of code or not.
+ */
 public class ifelse {
     
     public static void main(String[] args) {
