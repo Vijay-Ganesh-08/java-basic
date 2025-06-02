@@ -3,17 +3,16 @@ public class SuperKeyword {
     //Super Keyword is used to call the constructors of a Parent class from Child Class
 
     public static void main(String[] args){
-        Dog d1 = new Dog();
+        Dogs d1 = new Dogs();
     }
 }
 
-
-class Animal{
+class Animals{
     int age = 5;
-    Animal(){
+    Animals(){
         System.out.println("Animal Default Constructor");
     }
-    Animal(String name){
+    Animals(String name){
         System.out.println("Animal Name: "+ name);
     }
     void MakesSound(){
@@ -21,8 +20,8 @@ class Animal{
     }
 }
 
-class Dog extends Animal{
-    Dog(){
+class Dogs extends Animals{
+    Dogs() {
         //super(); //Calls by default
         super("Timmy"); //Calling Parameterized Constructor
         System.out.println("Dog Default Constructor");
