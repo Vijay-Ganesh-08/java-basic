@@ -6,6 +6,7 @@ import java.io.IOException;
  * FileWriter - Writes each character to the file.
  * BufferedWriter - Writes each line to the file.
  * The Second parameter is optional and can be used if file needs to be appended
+ * The Second parameter can be ignored if the file's content needs to be overwritten all time
  */
 public class FileWriting {
 
