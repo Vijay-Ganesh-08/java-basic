@@ -1,5 +1,6 @@
 public class FinalKeyword {
 
+    //Method which is marked as final cannot be overridden
     public static void main(String[] args) {
         B objb = new B();
         objb.display();
@@ -19,6 +20,7 @@ class A {
 
 class B extends A {
 
+    @Override
     void display() {
         System.out.println("Class B");
     }
