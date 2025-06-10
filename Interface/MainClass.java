@@ -1,10 +1,13 @@
 package Interface;
-
-//Interface methods are abstract by default.
-//Any variables defined are public static final.
+/**
+ * Interface methods are abstract by default.
+ * Any Class that implements an interface should implement all the methods defined in the interface
+ * Any variables defined are public static final.
+ */
 interface Animal{
     int mark = 10;
     void sound();
+    //void test();
 }
 
 class Dog implements Animal {
